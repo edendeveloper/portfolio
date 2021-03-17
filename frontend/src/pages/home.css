@@ -1,12 +1,11 @@
 .main-container {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     height: 100%;
     color: #E8E9F3;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     justify-content: center;
-    margin: 0 auto;
 }
 
 /* ------------------------------------HEADER------------------------------------ */
@@ -19,6 +18,7 @@ header {
     padding: 18px 10px;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    border-bottom: 1px solid #9A48D0;
 }
 
 header p {
@@ -29,7 +29,6 @@ header p {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    
     color: #9A48D0;
     cursor: pointer;
 }
@@ -47,6 +46,7 @@ header p:hover {
     grid-gap: 30px;
     justify-content: center;
     width: 1000px;
+    
 }
 
 .resume .resume-box {
@@ -58,6 +58,7 @@ header p:hover {
     max-height: 320px;
     background: #525252;
     border-radius: 4px;
+    border: 1px solid #9A48D0;
 }
 
 .resume .resume-box strong {
@@ -89,6 +90,7 @@ header p:hover {
     justify-content: center;
     text-align: center;
     margin-top: 30px;
+    border: 1px solid #9A48D0;
 }
 
 .techs strong {
@@ -116,8 +118,7 @@ header p:hover {
 
 .main-container .contact {
     margin-top: 40px;
-    max-height: 200px;
-    max-width: 100px;
+    width: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
@@ -126,4 +127,9 @@ header p:hover {
 .main-container .contact a img {
     max-width: 30px;
     max-height: 30px;
+}
+
+.main-container .contact a img:hover {
+    transform: translateY(-3px);
+    transition: all 0.2s;
 }
