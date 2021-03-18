@@ -1,0 +1,19 @@
+.contact {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+}
+
+.contact a img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.contact a img:hover {
+    transform: translateY(-3px);
+    transition: all 0.2s;
+}
