@@ -21,7 +21,6 @@
 .resume .resume-box {
     flex: 1;
     text-align: center;
-    margin-top: 50px;
     padding: 20px 15px;
     max-width: 600px;
     max-height: 320px;
@@ -43,8 +42,6 @@
 }
 
 .resume .profile-image img {
-    max-width: 400px;
-    max-height: 450px;
     margin-left: 30px;
 }
 

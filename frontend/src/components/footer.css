@@ -1,16 +1,16 @@
 .contact {
     margin-top: 40px;
-    width: 100%;
+    max-width: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    position: fixed;
+    grid-gap: 30px;
     bottom: 0;
-    justify-content: center;
 }
 
 .contact a img {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 4px;
 }
 
 .contact a img:hover {

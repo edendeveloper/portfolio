@@ -2,12 +2,12 @@ import React from 'react'
 import './home.css'
 
 import profile from '../assets/profile.png'
-import html from '../assets/html.svg'
-import css from '../assets/css.svg'
-import react from '../assets/react.svg'
-import javascript from '../assets/javascript.svg'
-import vuejs from '../assets/vuejs.svg'
-import nodejs from '../assets/nodejs.svg'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import react from '../assets/react.png'
+import javascript from '../assets/javascript.png'
+import vue from '../assets/vue.png'
+import node from '../assets/node.png'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -42,10 +42,10 @@ export default function Home({history}) {
                         <img src={react} alt="React"/>
                     </li>
                     <li>
-                        <img src={vuejs} alt="Vuejs"/>
+                        <img src={vue} alt="Vuejs"/>
                     </li>
                     <li>
-                        <img src={nodejs} alt="Nodejs"/>
+                        <img src={node} alt="Nodejs"/>
                     </li>
                 </ul>
             </section>
