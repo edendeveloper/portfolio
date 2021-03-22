@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Redirect } from 'react-router-dom'
 
 import Home from './pages/home'
 import Projects from './pages/projects'
@@ -13,6 +13,7 @@ export default function Routes() {
             <Route path="/projects" component={Projects}/>
             <Route path="/aboutme" component={AboutMe}/>
             <Route path="/contact" component={Contact}/>
+            <Redirect to="/"/>
         </BrowserRouter>
     )
 }

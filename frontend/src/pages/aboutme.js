@@ -2,8 +2,10 @@ import React from 'react'
 import './aboutme.css'
 
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 import minecraft from '../assets/minecraft.gif'
+import frontend from '../assets/frontend.svg'
 
 export default function AboutMe() {
     return(
@@ -19,6 +21,12 @@ export default function AboutMe() {
                 </div>
                 <img src={minecraft} alt="Minecraft gif"/>
             </section>
+            <h1>PORQUE FRONTEND?</h1>
+            <section className="frontend">
+                <p>Criar layouts e artes para aplicações sempre foi uma parte que eu gostava muito enquanto desenvolvia projetos acadêmicos, então encontrei tecnologias que me possibilitariam ser um profissional de verdade nessa área.</p>
+                <img src={frontend} alt="frontend"/>
+            </section>
+            <Footer/>
         </div>
     )
 }

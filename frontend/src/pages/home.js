@@ -8,6 +8,8 @@ import react from '../assets/react.png'
 import javascript from '../assets/javascript.png'
 import vue from '../assets/vue.png'
 import node from '../assets/node.png'
+import techs from '../assets/techs.svg'
+import coding from '../assets/coding.svg'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -27,27 +29,30 @@ export default function Home({history}) {
                 </div>
             </section>
             <section className="techs">
-                <strong>MY STACK</strong>
-                <ul>
-                    <li>
-                        <img src={html} alt="HTML"/>
-                    </li>
-                    <li>
-                        <img src={css} alt="CSS"/>
-                    </li>
-                    <li>
-                        <img src={javascript} alt="Javascript"/>
-                    </li>
-                    <li>
-                        <img src={react} alt="React"/>
-                    </li>
-                    <li>
-                        <img src={vue} alt="Vuejs"/>
-                    </li>
-                    <li>
-                        <img src={node} alt="Nodejs"/>
-                    </li>
-                </ul>
+            <img src={coding} alt="Coding"/>
+                <div className="techs-box">
+                    <strong>MY STACK</strong>  
+                    <ul>
+                        <li>
+                            <img src={html} alt="HTML"/>
+                        </li>
+                        <li>
+                            <img src={css} alt="CSS"/>
+                        </li>
+                        <li>
+                            <img src={javascript} alt="Javascript"/>
+                        </li>
+                        <li>
+                            <img src={react} alt="React"/>
+                        </li>
+                        <li>
+                            <img src={vue} alt="Vuejs"/>
+                        </li>
+                        <li>
+                            <img src={node} alt="Nodejs"/>
+                        </li>
+                    </ul>
+                </div>    
             </section>
             <Footer/>
         </div>

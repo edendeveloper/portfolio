@@ -2,10 +2,13 @@
     margin: 0 auto;
     padding: 0;
     height: 100%;
+    width: 100%;
     color: #E8E9F3;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ------------------------------------RESUME------------------------------------ */
@@ -48,36 +51,46 @@
 /* ------------------------------------TECHS------------------------------------ */
 
 .techs {
-    max-width: 1000px;
-    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.techs img {
+    max-width: 320px;
+    max-height: 320px;
+}
+
+.techs .techs-box {
+    max-width: 600px;
+    max-height: 320px;
     background: #525252;
     border-radius: 4px;
     padding: 20px 15px;
-    justify-content: center;
     text-align: center;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
     border: 1px solid #9A48D0;
+    margin-left: 30px;
 }
 
-.techs strong {
+.techs .techs-box strong {
     font-size: 28px;
     color: #9A48D0;
     font-weight: bold;
+    float: left;
 }
 
-.techs ul {
+.techs .techs-box ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20px;
+    grid-gap: 30px;
+    width: 500px;
+    float: left;
+    margin-top: 10px;
 }
 
-.techs ul li img {
-    width: 80px;
-    min-width: 80px;
-    height: 80px;
-    min-width: 80px;
-    margin: 10px;
-    border: none;
-}
 

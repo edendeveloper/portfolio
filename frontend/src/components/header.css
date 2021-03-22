@@ -1,6 +1,6 @@
 header {
     height: 100px;
-    overflow: hidden;
+    width: 100%;
     background: #525252;
     padding: 18px 10px;
     border-radius: 0px 0px 4px 4px;
