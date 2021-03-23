@@ -8,30 +8,24 @@ import react from '../assets/react.png'
 import javascript from '../assets/javascript.png'
 import vue from '../assets/vue.png'
 import node from '../assets/node.png'
-import techs from '../assets/techs.svg'
 import coding from '../assets/coding.svg'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-export default function Home({history}) {
-    console.log(history)
+export default function Home() {
     return(
         <div className="main-container">
             <Header/>
-            <section className="resume">
-                <div className="resume-box">
-                    <strong>WELINGTON MANFRIN</strong>
-                    <p>Olá, meu nome é Welington, tenho 18 anos e me formei no curso técnico de Desenvolvimento de Sistemas, eu sempre fui apaixonado por tecnologia, mas quando descobri a programação decidi que era ali que eu investiria como profissional, desde então almejo ingressar no mercado de trabalho e colocar em prática o conhecimento que já tenho e também adquirir cada vez mais aprendizado fazendo o que eu amo. Gosto de trabalhar com tecnologias atuais, investindo no ecossistema javascript, estudando ferramentas como Vue, React e Node</p>
-                </div>
-                <div className="profile-image">
-                    <img src={profile} alt="Profile"/>
-                </div>
+            <h1>WELINGTON MANFRIN</h1>
+            <section className="section-box">
+                <p>Olá, meu nome é Welington, tenho 18 anos e me formei no curso técnico de Desenvolvimento de Sistemas, eu sempre fui apaixonado por tecnologia, mas quando descobri a programação decidi que era ali que eu investiria como profissional, desde então almejo ingressar no mercado de trabalho e colocar em prática o conhecimento que já tenho e também adquirir cada vez mais aprendizado fazendo o que eu amo. Gosto de trabalhar com tecnologias atuais, investindo no ecossistema javascript, estudando ferramentas como Vue, React e Node</p>
+                <img src={profile} alt="Profile"/>
             </section>
-            <section className="techs">
+            <h1>MY STACK</h1>
+            <section className="section-box">
             <img src={coding} alt="Coding"/>
-                <div className="techs-box">
-                    <strong>MY STACK</strong>  
+                <div className="techs-box"> 
                     <ul>
                         <li>
                             <img src={html} alt="HTML"/>

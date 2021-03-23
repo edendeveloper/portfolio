@@ -3,11 +3,13 @@ import './header.css'
 import { Link } from 'react-router-dom'
 
 import cv from '../assets/CV-PT-Welington.docx'
+import logo from '../assets/logo.png'
 
 export default function Header() {
     return(
         <header>
-                <Link to="/"><p>HOME</p></Link>
+                <img src={logo} alt="LOGO"/>
+                <Link to="/"><p id="home">HOME</p></Link>
                 <Link to="/projects"><p>PROJECTS</p></Link>
                 <Link to="/aboutme"><p>ABOUT ME</p></Link>
                 <Link to="/contact"><p>CONTACT</p></Link>
