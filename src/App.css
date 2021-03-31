@@ -1,29 +1,29 @@
 * {
-  margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  justify-content: center;
   margin: 0 auto;
+  overflow-y: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html, body, #root {
   height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
 
 body {
   background: #F0F0F0;
 }
 
-body, input, button {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 500;
   color: #9A48D0;
-  margin-top: 60px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
 }

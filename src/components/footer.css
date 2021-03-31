@@ -1,27 +1,32 @@
-.contact {
-    margin-top: 100px;
-    padding-bottom: 10px;
-    width: 350px;
+.footer {
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
     bottom: 0;
+    position: fixed;
 }
 
-.contact a {
-    padding: 10px 5px;
+.footer .buttons {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+}
+
+.footer .buttons a {
+    padding: 5px 0px;
     background-color: #9A48D0;
     border-radius: 5px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     text-align: center;
 }
 
-.contact a img {
+.footer .buttons a img {
     max-width: 30px;
     max-height: 30px;
 }
 
-.contact a:hover {
+.footer .buttons a:hover {
     transform: translateY(-3px);
     transition: all 0.2s;
 }

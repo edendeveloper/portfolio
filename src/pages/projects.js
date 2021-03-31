@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.css'
+import './content.css'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -30,17 +31,19 @@ export default function Projects() {
     return(
         <div className="projects-container">
             <Header/>
-            <ul>
-                {projects.map(index => (
-                    <li>
-                        <img src={index.img} alt="imagem do projeto"/>
-                        <footer>
-                            <a href={index.link} target="blank"><p>{index.name}</p></a>
-                            <p>{index.desc}</p>
-                        </footer>
-                    </li>
-                ))}  
-            </ul>
+            <div className="content">
+                <ul id="projects">
+                    {projects.map(index => (
+                        <li>
+                            <img src={index.img} alt="imagem do projeto"/>
+                            <footer>
+                                <a href={index.link} target="blank"><p>{index.name}</p></a>
+                                <p>{index.desc}</p>
+                            </footer>
+                        </li>
+                    ))}  
+                </ul>
+                </div>
             <Footer/>
         </div>
     )

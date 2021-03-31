@@ -8,11 +8,10 @@ import logo from '../assets/logo.png'
 export default function Header() {
     return(
         <header>
-                <img src={logo} alt="LOGO"/>
-                <Link to="/portfolio"><p id="home">HOME</p></Link>
-                <Link to="/projects"><p>PROJECTS</p></Link>
-                <Link to="/aboutme"><p>ABOUT ME</p></Link>
-                <a href={cv} download><p>RESUME</p></a> 
+                <Link to="/portfolio"><img src={logo} alt="LOGO"/></Link>
+                <Link to="/aboutme"><p>SOBRE</p></Link>
+                <Link to="/projects"><p>PROJETOS</p></Link>
+                <a href={cv} download><p>DOWNLOAD CV</p></a> 
         </header>
     )
 }

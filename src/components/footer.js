@@ -9,12 +9,14 @@ import instagram from '../assets/instagram.svg'
 
 export default function Footer() {
     return(
-        <footer className="contact">
-            <a href="https://twitter.com/EdenLothus" target="blank"><img src={twitter} alt="Twitter"/></a>
-            <a href="https://www.linkedin.com/in/welington-manfrim-a16a40194/" target="blank"><img src={linkedin} alt="Linkedin"/></a>
-            <a href="https://github.com/edendeveloper" target="blank"><img src={github} alt="Github"/></a>
-            <a href="https://www.twitch.tv/edenlothus" target="blank"><img src={twitch} alt="Twitch"/></a>
-            <a href="https://www.instagram.com/edenlothus/" target="blank"><img src={instagram} alt="Instagram"/></a>
+        <footer className="footer">
+            <div className="buttons">
+                <a href="https://twitter.com/EdenLothus" target="blank"><img src={twitter} alt="Twitter"/></a>
+                <a href="https://www.linkedin.com/in/welington-manfrim-a16a40194/" target="blank"><img src={linkedin} alt="Linkedin"/></a>
+                <a href="https://github.com/edendeveloper" target="blank"><img src={github} alt="Github"/></a>
+                <a href="https://www.twitch.tv/edenlothus" target="blank"><img src={twitch} alt="Twitch"/></a>
+                <a href="https://www.instagram.com/edenlothus/" target="blank"><img src={instagram} alt="Instagram"/></a>
+            </div>
         </footer>
     )
 }

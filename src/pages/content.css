@@ -1,0 +1,17 @@
+.content {
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+    padding: 20px;
+}
+
+.content h1 {
+    font-weight: 400;
+}
+
+.content p {
+    font-weight: 200;
+}
+

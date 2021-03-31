@@ -1,22 +1,42 @@
-.main-container h1 {
-    text-align: center;
-}
-
 .frontend {
-    width: 980px;
     display: flex;
-    flex-direction: row;
-    padding: 20px 0px;
+    flex-direction: column;
+    margin: 10px;
     text-align: left;
 }
 
-.frontend p {
-    font-size: 20px;
-    padding: 0px 30px;
+.frontend img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.frontend img {
-    max-width: 320px;
-    max-height: 320px;
-    border-radius: 4px;
+@media ( min-width: 900px ) {
+    .frontend {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        max-width: 1000px;
+        padding: 15px;
+    }
+
+    .frontend p {
+        align-self: center;
+        margin: 0 20px;
+    }
+
+    .frontend img {
+        max-width: 300px;
+        max-height: 300px;
+        border-radius: 4px;
+        align-self: center;
+    }
+
+    .frontend #minecraft {
+        min-width: 300px;
+        min-height: 380px;
+    }
 }
