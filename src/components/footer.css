@@ -3,6 +3,7 @@
     display: flex;
     bottom: 0;
     position: fixed;
+    background-color: #F0F0F0;
 }
 
 .footer .buttons {
