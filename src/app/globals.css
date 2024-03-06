@@ -13,5 +13,17 @@
   --primary-text-color: #030712;
   --secondary-text-color: #9ca3af;
   --primary-background-black: #18181b;
+  --purple: #a855f7;
+  --purple-gradient: linear-gradient(to right, #a855f7 , #6b21a8);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--secondary-text-color);
 }
 

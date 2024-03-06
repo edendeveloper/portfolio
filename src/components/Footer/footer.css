@@ -1,0 +1,30 @@
+.footer-container {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--secondary-text-color);
+}
+
+.contact-container strong{
+  background: var(--purple-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+}
+
+.media-container {
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.media-container a {
+  margin: 0px 8px;
+}

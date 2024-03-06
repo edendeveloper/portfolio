@@ -21,4 +21,7 @@
   width: 100vw;
   height: 120px;
   background-color: var(--primary-background-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

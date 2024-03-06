@@ -12,11 +12,5 @@
 }
 
 .nav-link {
-  text-decoration: none;
   color: var(--primary-text-color);
-  transition: 0.3s;
-}
-
-.nav-link:hover {
-  color: var(--secondary-text-color);
 }
