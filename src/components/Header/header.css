@@ -3,7 +3,12 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  height: 80px;
+}
+
+.header-bar > h1 {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .header-bar > nav {
@@ -12,5 +17,5 @@
 }
 
 .nav-link {
-  color: var(--primary-text-color);
+  color: var(--gray-950);
 }

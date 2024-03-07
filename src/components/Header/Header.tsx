@@ -10,6 +10,7 @@ export default function Header() {
         <Link href="/" className="nav-link">Home</Link>
         <Link href="/projects" className="nav-link">Projects</Link>
         <Link href="/about" className="nav-link">About</Link>
+        <a href="" className="nav-link">Resume</a>
       </nav>
     </main>
   );

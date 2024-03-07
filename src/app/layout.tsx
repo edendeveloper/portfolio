@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="app-body">
-        <header>
+        <div className="content-container">
           <Header/>
-        </header>
-        {children}
+          {children}
+        </div>
         <footer>
           <Footer/>
         </footer>

@@ -4,8 +4,11 @@ export default function App() {
   return (
     <main>
       <article className="apresentation-box">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum possimus et voluptate iste aliquid quaerat ipsum ut, molestias non unde eaque eveniet soluta ex est labore reiciendis sequi corporis molestiae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore sapiente delectus obcaecati, cumque perferendis ad repellat iure odit nisi vitae. Qui nulla nam eos officia eaque consectetur rerum dignissimos distinctio?</p>
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/3f/Vertigo_EDEN_Album_Cover.png" alt="The image of the Vertigo album from EDEN"/>
+        <div className="text-box">
+        <h1 className="gradient-text">Welcome!</h1>
+        <h2><i>Welington</i> is a passionate front-end developer wanting to become a product designer. He is moved by art, inovation and learning new things. Studyng ASD in Brazil.</h2>
+        <p>trainee at <a href="https://www.linkedin.com/company/kumulus-cloud-data/mycompany/" target="_blank">Kumulus.</a></p>
+        </div>
       </article>
     </main>
   );
