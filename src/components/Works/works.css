@@ -16,7 +16,6 @@
   width: 65%;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  border-radius: 16px;
   display: flex;
   flex-direction: row;
   flex: 0 auto;
@@ -26,8 +25,7 @@
 }
 
 .left-side {
-  width: 100%;
-  max-width: 318px;
+  width: 45%;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   flex-direction: column;
@@ -37,8 +35,7 @@
 }
 
 .right-side {
-  width: 100%;
-  max-width: 475px;
+  width: 55%;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   flex-direction: column;
@@ -54,6 +51,16 @@
   display: inline-block;
   border-radius: 16px;
   position: relative;
+  overflow: hidden;
+}
+
+.works-item:hover .works-description {
+  top: 0; 
+  cursor: pointer;
+}
+
+.works-item:not(:hover) .works-description {
+  top: -100%;
 }
 
 .works-item > img {
@@ -63,13 +70,17 @@
 
 .works-description {
   position: absolute;
-  bottom: 0;
-  padding-left: 16px;
-  padding-bottom: 12px;
-  margin-bottom: 4px;
-  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
   width: 100%;
-  color: var(--gray-200);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: top 0.4s ease;
 }
 
 .works-description > h1 > a {

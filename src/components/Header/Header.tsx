@@ -7,10 +7,10 @@ export default function Header() {
       <h1>WM.</h1>
 
       <nav>
-        <Link href="/" className="link-secondary">Home</Link>
-        <Link href="/projects" className="link-secondary">Projects</Link>
-        <Link href="/about" className="link-secondary">About</Link>
-        <a href="" className="link-secondary">Resume</a>
+        <Link href="/" className="link-secondary" scroll={true}>Home</Link>
+        <Link href="/#works" className="link-secondary" scroll={true}>Projects</Link>
+        <Link href="/about" className="link-secondary" scroll={true}>About</Link>
+        <a href="https://resume.io/r/XZ9hYCfAh" target="_blank" className="link-secondary">Resume</a>
       </nav>
     </main>
   );
