@@ -1,16 +1,8 @@
-.apresentation-box {
-  width: 1100px;
-  height: calc(100vh - 80px);
+.home-container {
   display: flex;
   flex-direction: column;
-  background-image: url(../materials/wave.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  align-items: center;
+  height: 100%;
+  width: 1100px;
   margin-bottom: 200px;
-}
-
-.text-box {
-  width: 50%;
-  padding-top: 10%;
 }

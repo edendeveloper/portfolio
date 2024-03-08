@@ -7,10 +7,10 @@ export default function Header() {
       <h1>WM.</h1>
 
       <nav>
-        <Link href="/" className="nav-link">Home</Link>
-        <Link href="/projects" className="nav-link">Projects</Link>
-        <Link href="/about" className="nav-link">About</Link>
-        <a href="" className="nav-link">Resume</a>
+        <Link href="/" className="link-secondary">Home</Link>
+        <Link href="/projects" className="link-secondary">Projects</Link>
+        <Link href="/about" className="link-secondary">About</Link>
+        <a href="" className="link-secondary">Resume</a>
       </nav>
     </main>
   );

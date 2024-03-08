@@ -5,7 +5,7 @@ export default function Footer() {
     <main className="footer-container">
         <div className="contact-container">
           <strong>Thanks for visiting!</strong>
-          <p>©2023 Welington Manfrim</p>
+          <p>©2023 Welington Manfrim - made with love.</p>
           <a href="mailto:welington.robertodev@gmail.com">welington.robertodev@gmail.com</a>
         </div>
         <div className="media-container">
